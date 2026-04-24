@@ -1,0 +1,184 @@
+{
+  "shape": {
+    "rows": 200000,
+    "cols": 49
+  },
+  "default_rate": 0.19965,
+  "null_rates_top15": {
+    "emp_title": 0.0638,
+    "emp_length": 0.0583,
+    "mort_acc": 0.0357,
+    "title": 0.0125,
+    "last_pymnt_d": 0.0018,
+    "revol_util": 0.0007,
+    "pub_rec_bankruptcies": 0.0005,
+    "dti": 0.0003,
+    "chargeoff_within_12_mths": 0.0001,
+    "collections_12_mths_ex_med": 0.0001,
+    "tax_liens": 0.0,
+    "recoveries": 0.0,
+    "last_fico_range_low": 0.0,
+    "total_rec_int": 0.0,
+    "total_rec_prncp": 0.0
+  },
+  "null_rates_cols_with_any_null": 11,
+  "default_rate_by_grade": {
+    "A": 0.0592,
+    "B": 0.1336,
+    "C": 0.2249,
+    "D": 0.3029,
+    "E": 0.3801,
+    "F": 0.4675,
+    "G": 0.5
+  },
+  "default_rate_by_purpose": {
+    "wedding": 0.1114,
+    "car": 0.1545,
+    "credit_card": 0.1687,
+    "vacation": 0.1773,
+    "home_improvement": 0.1827,
+    "major_purchase": 0.1852,
+    "debt_consolidation": 0.211,
+    "other": 0.2126,
+    "medical": 0.2227,
+    "house": 0.2247,
+    "moving": 0.2286,
+    "small_business": 0.2958
+  },
+  "default_rate_by_home_ownership": {
+    "MORTGAGE": 0.1713,
+    "OWN": 0.2087,
+    "RENT": 0.2322
+  },
+  "default_rate_by_state_top5": {
+    "NE": 0.2668,
+    "MS": 0.2565,
+    "NV": 0.2381,
+    "AR": 0.2376,
+    "AL": 0.2347
+  },
+  "default_rate_by_state_bottom5": {
+    "NH": 0.1543,
+    "WY": 0.1496,
+    "OR": 0.1492,
+    "ME": 0.1463,
+    "DC": 0.1417
+  },
+  "continuous_means_by_default": {
+    "0": {
+      "int_rate": 12.62,
+      "annual_inc": 77433.53,
+      "dti": 17.8,
+      "fico_avg": 700.26,
+      "revol_util": 51.08,
+      "loan_amnt": 14141.43
+    },
+    "1": {
+      "int_rate": 15.76,
+      "annual_inc": 70516.42,
+      "dti": 20.06,
+      "fico_avg": 689.71,
+      "revol_util": 54.75,
+      "loan_amnt": 15560.09
+    }
+  },
+  "temporal": {
+    "2007": {
+      "volume": 36,
+      "default_rate": 0.0278,
+      "mean_int_rate": 9.5833
+    },
+    "2008": {
+      "volume": 238,
+      "default_rate": 0.1303,
+      "mean_int_rate": 11.0941
+    },
+    "2009": {
+      "volume": 726,
+      "default_rate": 0.1102,
+      "mean_int_rate": 12.2065
+    },
+    "2010": {
+      "volume": 1751,
+      "default_rate": 0.1205,
+      "mean_int_rate": 11.6338
+    },
+    "2011": {
+      "volume": 3242,
+      "default_rate": 0.1595,
+      "mean_int_rate": 12.3758
+    },
+    "2012": {
+      "volume": 7982,
+      "default_rate": 0.1605,
+      "mean_int_rate": 13.6922
+    },
+    "2013": {
+      "volume": 19842,
+      "default_rate": 0.1583,
+      "mean_int_rate": 14.5119
+    },
+    "2014": {
+      "volume": 33307,
+      "default_rate": 0.1841,
+      "mean_int_rate": 13.6531
+    },
+    "2015": {
+      "volume": 55856,
+      "default_rate": 0.1999,
+      "mean_int_rate": 12.4074
+    },
+    "2016": {
+      "volume": 43548,
+      "default_rate": 0.2344,
+      "mean_int_rate": 13.1106
+    },
+    "2017": {
+      "volume": 25065,
+      "default_rate": 0.2313,
+      "mean_int_rate": 13.9081
+    },
+    "2018": {
+      "volume": 8407,
+      "default_rate": 0.1627,
+      "mean_int_rate": 13.4755
+    }
+  },
+  "pricing_by_grade": {
+    "A": {
+      "mean_int_rate": 7.119,
+      "default_rate": 0.0592,
+      "n": 34984
+    },
+    "B": {
+      "mean_int_rate": 10.6807,
+      "default_rate": 0.1336,
+      "n": 58315
+    },
+    "C": {
+      "mean_int_rate": 14.0223,
+      "default_rate": 0.2249,
+      "n": 56522
+    },
+    "D": {
+      "mean_int_rate": 17.7095,
+      "default_rate": 0.3029,
+      "n": 29938
+    },
+    "E": {
+      "mean_int_rate": 21.1258,
+      "default_rate": 0.3801,
+      "n": 13956
+    },
+    "F": {
+      "mean_int_rate": 24.9511,
+      "default_rate": 0.4675,
+      "n": 4937
+    },
+    "G": {
+      "mean_int_rate": 27.8345,
+      "default_rate": 0.5,
+      "n": 1348
+    }
+  }
+}
