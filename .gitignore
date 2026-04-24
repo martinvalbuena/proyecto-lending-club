@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+dist/
+build/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# =========================
+# Data - no subir raw/processed (archivos grandes)
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# =========================
+# LaTeX build artifacts
+# =========================
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blg
+*.bbl
+*.nav
+*.snm
+*.vrb
+*.run.xml
+*-blx.bib
+
+# =========================
+# Results intermedios (los finales sí se suben)
+# =========================
+results/tmp/
+results/*.pkl
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Secrets / credentials
+# =========================
+.env
+*.key
+credentials.json
+
+# =========================
+# Material de clase (copyright — no publicar)
+# =========================
+docs/class_material/
