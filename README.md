@@ -70,8 +70,8 @@ Autor: Martín Valbuena.
 
 ```bash
 # 1. Clonar repo
-git clone https://github.com/mvalbuenal/lending-club-pricing-fairness.git
-cd lending-club-pricing-fairness
+git clone https://github.com/martinvalbuena/proyecto-lending-club.git
+cd proyecto-lending-club
 
 # 2. Crear entorno virtual
 python -m venv .venv
